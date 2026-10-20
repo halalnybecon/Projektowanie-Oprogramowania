@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2024",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "moduleDetection": "auto",
+    "rootDir": "./src",
+    "outDir": "./public",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
+}

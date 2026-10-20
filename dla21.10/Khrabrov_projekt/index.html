@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sklep Elektro Bud</title>
+  <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+  <h1>Sklep Elektro Bud</h1>
+  <form id="form">
+    <label>* Nazwa produktu: <input id="name" required></label>
+    <label>* Ilosc: <input id="quantity" type="number" min="0" required></label>
+    <button type="submit">Zapisuj</button>
+  </form>
+  <h2>Produkty</h2>
+  <table>
+    <thead><tr><th>Nazwa</th><th>Ilosc</th><th>Akcje</th></tr></thead>
+    <tbody id="list"></tbody>
+  </table>
+  <script src="public/main.js"></script>
+</body>
+</html>
